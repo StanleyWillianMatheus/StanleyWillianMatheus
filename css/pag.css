@@ -4,13 +4,12 @@
 	padding: 0; 
 }
 body{
-	width: 890px;
+	width: 900px;
 	height: 100px;
 		
 }
 section{
 	background-color: red;
-	width: 890px;
 	height: 500px;
 }
 article{

@@ -136,7 +136,7 @@ section{
 
 /* ASIDE */
 aside{
-	background-color: yellow;
+	background-color: green;
 	width: 124px;
 	display: block;
 	float: right;
@@ -145,9 +145,7 @@ aside{
 
 embed{
 	width: 900px;
-	height: 500px;
-	overflow-x: none;
-	overflow-y: none;
+	height: 2000px;
 }
 
 
