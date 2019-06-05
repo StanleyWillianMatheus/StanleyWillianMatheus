@@ -119,17 +119,24 @@ header{
 
 
 
-/* Div Section e Aside */
+/*///////////////// SECTION E ASIDE /////////////////*/
 .content{
-	background-color: red;
 	width: 100%;
 }
 /* SECTION */
 section{
-	background-color: blue;
 	width: 900px;
 	display: block;
 	float: left;
+}
+article{
+	width: 30%;
+	height: 200px;
+	border:1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 1%;
+	padding: 3px; 
 }
 /* SECTION */
 
