@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
     outline: none;
-    font-family:Lato,arial,serif;
+    font-family:arial,serif;
 }
 body{
 	background-color: #fff;	
@@ -142,10 +142,13 @@ article{
 
 /* ASIDE */
 aside{
-	background-color: green;
 	width: 124px;
 	display: block;
 	float: right;
+}
+.aside-titulo{
+	font-size: 12pt;
+	border-bottom: 1px solid black;
 }
 /* ASIDE */
 
@@ -169,6 +172,7 @@ embed{
 	text-align: center;
 }
 footer{
+	background-color: rgb(51,51,51);
 	width: 100%;
 	display: block;
 	float: left;
