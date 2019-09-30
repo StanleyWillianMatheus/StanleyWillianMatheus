@@ -128,6 +128,7 @@ section{
 	width: 900px;
 	display: block;
 	float: left;
+	background-color: blue;
 }
 article{
 	width: 30%;
@@ -145,6 +146,7 @@ aside{
 	width: 124px;
 	display: block;
 	float: right;
+	background-color: red;
 }
 .aside-titulo{
 	font-size: 12pt;
@@ -152,67 +154,30 @@ aside{
 }
 /* ASIDE */
 
-embed{
-	width: 900px;
-	height: 2000px;
-}
-
 
 /*///////////////// FOOTER /////////////////*/
 /*///////////////// FOOTER /////////////////*/
-.pag_div{
-	background-color: rgb(158, 158, 158);
-	width: 100%;
+footer{
 	display: block;
 	float: left;
+}
+.footer-div1{
+	background-color: rgb(158, 158, 158);
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 14px;
+}
+.footer-div2{
+	background-color: rgb(51,51,51);
+	display: block;
+	float: left;
+	width: 100%;
 	padding: 14px;
 }
 .h1h1{
 	font-size: 12px;
 	text-align: center;
-}
-footer{
-	background-color: rgb(51,51,51);
-	width: 100%;
-	display: block;
-	float: left;
-}
-.footer-h5{
-	text-align: center;
-	margin-bottom: 15px;
-}
-
-
-/*///////////////// MAPA /////////////////*/
-.mapa-site{
-	font-size: 12px;
-	text-align:center;
-	margin: 15px 0;  
-}
-.mapa-site h1{
-	font-size: 14px;
-}
-
-
-.mapa-ll{
-	display: inline-block;
-}
-.mapa-cc{
-	display: inline-block;
-}
-.mapa-dw{
-	display: inline-block;
-}
-
-
-.mapa-site li{
-	border-right: 1px solid;
-	margin-right: 10px;
-	padding: 5px;
-}
-.mapa-site a{
-	text-decoration: none;
-	color: black;
 }
 /*///////////////// FOOTER /////////////////*/
 /*///////////////// FOOTER /////////////////*/
