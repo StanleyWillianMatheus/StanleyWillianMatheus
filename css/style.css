@@ -8,16 +8,13 @@
     font-family:arial,serif;
 }
 body{
-	background-color: #fff;	
+	width: 1024px;
+	background-color: rgb(97, 129, 182);	
 	margin: auto;
 }
 ul, ol, li{
 	list-style: none !important;
 	text-decoration: none !important;
-}
-.w1024{
-	width: 1024px;
-	margin: auto;
 }
 /*///////////////// RESET /////////////////*/
 
@@ -28,24 +25,20 @@ ul, ol, li{
 /*///////////////// HEADER /////////////////*/
 header{
 	background-color: rgb(51,51,51);
-	width: 100%;
-	height: 48px;
-}
-.header_div{
 	width: 1024px;
-	height: 100%;
-	margin: auto;
+	height: 48px;
+	border-color: rgb(51,51,51);
+	box-shadow: 1px 1px 3px rgb(51,51,51);
 }
-
-
-/*///////////////// DIV HEADER /////////////////*/
+/*/////////////// DIV HEADER ///////////////*/
 .div_header{
 	background-color: rgb(158, 158, 158);
-	width: 100%;
+	width: 1024px;
 	height: 100px;
 	display: block;
 	float: left;
-	padding: 14px;
+	border-color: rgb(158, 158, 158);
+	box-shadow: 1px 1px 3px rgb(158, 158, 158);
 }
 .img_html{
     width: 280px;
@@ -59,21 +52,18 @@ header{
 	width: 150px;
 	height: 100px;
 }
-/*///////////////// DIV HEADER /////////////////*/
-
-
+/*////////////// DIV HEADER //////////////*/
 /*///////////////// LOGO /////////////////*/
 .logo{
     font-size: 30px;
     text-decoration: none;
     color:rgb(255,255,255);
-    margin-left: 45px;
+    margin-left: 10px;
     margin-top: 8px;
     float: left;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 /*///////////////// LOGO /////////////////*/
-
-
 /*///////////////// MENU /////////////////*/
 .menu{
 	height: 48px;
@@ -113,7 +103,7 @@ header{
     color:rgb(255,255,255);
 }
 /*///////////////// MENU /////////////////*/
-/*///////////////// HEADER /////////////////*/
+/*//////////////// HEADER ////////////////*/
 
 
 
@@ -121,19 +111,23 @@ header{
 
 /*///////////////// SECTION E ASIDE /////////////////*/
 .content{
-	width: 100%;
+
 }
 /* SECTION */
 section{
+	background-color: #fff;
 	width: 900px;
+	height: 700px;
 	display: block;
 	float: left;
+	border-color: rgb(187, 192, 200);
+	box-shadow: 1px 1px 3px rgb(187, 192, 200);
 }
 article{
-	box-shadow: 1px 1px rgb(187, 192, 200);
+	box-shadow: 1px 1px rgb(158, 158, 158);
 	width: 30%;
 	height: 200px;
-	border:1px solid black;
+	border:1px solid rgb(158, 158, 158);
 	border-radius: 5px;
 	display: inline-block;
 	margin: 1%;
@@ -143,9 +137,13 @@ article{
 
 /* ASIDE */
 aside{
-	width: 124px;
+	background-color: #fff;
+	width: 122px;
+	height: 700px;
 	display: block;
 	float: right;
+	border-color: rgb(187, 192, 200);
+	box-shadow: 1px 1px 3px rgb(187, 192, 200);
 }
 .aside-titulo{
 	margin:5px;
@@ -170,15 +168,19 @@ footer{
 	background-color: rgb(158, 158, 158);
 	display: block;
 	float: left;
-	width: 100%;
+	width: 995px;
 	padding: 14px;
+	border-color: rgb(158, 158, 158);
+	box-shadow: 1px 1px 3px rgb(158, 158, 158);
 }
 .footer-div2{
 	background-color: rgb(51,51,51);
 	display: block;
 	float: left;
-	width: 100%;
+	width: 996px;
 	padding: 14px;
+	border-color: rgb(51,51,51);
+	box-shadow: 1px 1px 3px rgb(51,51,51);
 }
 .h1h1{
 	font-size: 12px;
