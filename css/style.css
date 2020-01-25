@@ -12,7 +12,7 @@ body{
 	background-color: rgb(97, 129, 182);	
 	margin: auto;
 }
-ul, ol, li{
+ul, ol, li, a{
 	list-style: none !important;
 	text-decoration: none !important;
 }
@@ -110,14 +110,11 @@ header{
 
 
 /*///////////////// SECTION E ASIDE /////////////////*/
-.content{
-
-}
 /* SECTION */
 section{
 	background-color: #fff;
-	width: 900px;
-	height: 700px;
+	width: 888px;
+	height: 925px;
 	display: block;
 	float: left;
 	border-color: rgb(187, 192, 200);
@@ -125,27 +122,38 @@ section{
 }
 article{
 	box-shadow: 1px 1px rgb(158, 158, 158);
-	width: 30%;
+	width: 270px;
 	height: 200px;
 	border:1px solid rgb(158, 158, 158);
 	border-radius: 5px;
 	display: inline-block;
-	margin: 1%;
-	padding: 3px; 
+	float: left;
+	padding: 5px;
+	margin: 10px 0px 0px 10px;
+}
+.titulo_article{
+	color: black;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(56, 99, 160, 0.5), rgba(158, 158, 158, 0.5));
+}
+.img_article{
+	width: 270px;
+	height: 178px;
 }
 /* SECTION */
 
 /* ASIDE */
 aside{
 	background-color: #fff;
-	width: 122px;
-	height: 700px;
+	width: 134px;
+	height: 925px;
 	display: block;
 	float: right;
 	border-color: rgb(187, 192, 200);
 	box-shadow: 1px 1px 3px rgb(187, 192, 200);
 }
 .aside-titulo{
+	text-align: center;
 	margin:5px;
 	font-size: 12pt;
 	border-bottom: 1px solid black;
@@ -156,6 +164,20 @@ aside{
 	text-decoration: none;
 }
 /* ASIDE */
+/*///////////////// SECTION E ASIDE /////////////////*/
+
+/*///////////////// TROCA DE PAGINAS /////////////////*/
+.troca_de_paginas{
+	width: 885px;
+	height: 20px;
+	display: inline-block;
+	margin-top: 10px;
+	text-align: center;
+}
+.troca_de_paginas a{
+	color: black;
+}
+/*///////////////// TROCA DE PAGINAS /////////////////*/
 
 
 /*///////////////// FOOTER /////////////////*/
