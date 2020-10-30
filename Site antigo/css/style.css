@@ -57,11 +57,10 @@ header{
 .logo{
     font-size: 30px;
     text-decoration: none;
-    color:rgb(255,255,255);
+    color: black;
     margin-left: 10px;
     margin-top: 8px;
     float: left;
-    text-shadow: black 0.1em 0.1em 0.2em
 }
 /*///////////////// LOGO /////////////////*/
 /*///////////////// MENU /////////////////*/
